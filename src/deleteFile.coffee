@@ -41,7 +41,6 @@ deleteFile = (dir) ->
       # 计算时差
       fileInfo = path.parse file
       time = formatData(fileInfo.name)
-
       cha = moment().from(time)
 
       # 保留5天
